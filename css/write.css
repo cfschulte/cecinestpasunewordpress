@@ -1,0 +1,146 @@
+﻿html {
+	width:100%;
+	height:100%;
+	background-color:#eeeeee
+}
+
+/*
+    TODO: make this a dynamic site.
+*/
+
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size: 0.8em; 
+	width:100%;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	 padding:0;
+}
+
+p {
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.main_text {
+	max-width: 90%;
+/* 
+	min-height:350px; 
+ */
+	height: 100%;
+	margin: 2em auto 0 auto;
+	padding:1em;
+	background-color:#fefef8;
+	color:#333333;
+/* 
+    opacity: 0.9;
+ */
+}
+
+
+.landing {
+	height:98%; 
+	margin-top:2em;
+	margin-bottom:50px;
+	margin-left:50px;
+	margin-right:50px;
+	padding:1em;
+	background-color:#fefef8;
+	color:#333333;
+/* 
+    opacity: 0.9;
+ */
+}
+
+.links_text {
+	margin-top:1em;
+	width:90%;
+/* 
+	height:90%;
+ */
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fefef8;
+}
+
+
+.quicklinks {
+	float:left;
+	padding:1em;
+/* 
+	border: 2px solid black;
+ */
+}
+
+.quicklinks ul li {
+	list-style-type: none;
+}
+
+a{
+	color:#0066aa
+}
+a:visited{
+	color:#aa6600
+}
+
+#show_hide{
+	padding-left:2em;
+}
+
+#when_needed {
+	padding:1em;
+	background-color:#fefef8;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+/* Doing parallax */
+
+/* Slide 2 */
+#slide-1 .bcg {background-image:url('/images/DSC_0108.jpg')}
+#slide-1 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+#slide-1 h2 {
+    position: fixed;
+    top: 70%;
+}
+
+/* Slide 2 */
+#slide-2 .bcg {background-image:url('/images/drink.jpg')}
+#slide-2 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+#slide-2 h2 {
+    position: fixed;
+    top: 70%;
+}
+
+
+/* Slide 3 */
+#slide-2 .bcg {background-image:url('/images/DSC_0048_1.jpg')}
+#slide-2 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+#slide-2 h2 {
+    position: fixed;
+    top: 70%;
+}
+
+/* Slide 4 */
+#slide-4 .bcg {background-image:url('/images/vic_falls_pano_2.jpg')}
+#slide-4 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+#slide-4 h2 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}

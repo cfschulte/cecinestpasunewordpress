@@ -1,0 +1,51 @@
+// 
+// _landing.scss:  Tue Feb 12 15:15:27 CST 2019
+// 
+
+
+@font-face {
+	font-family: "Mistral";
+	src: url("/cecinestpasunewordpress/font_ttf/Mistral.ttf") format('truetype');
+}
+
+h1 {
+    font-family: Mistral;
+    font-size:400%;
+}    
+
+
+.latest_ruminant{
+    width:90%;
+}
+.other_content {
+    width:48%;
+    display: inline-block;
+/* 
+    background-color: #AAAAAA;
+ */
+}
+
+.landing {
+	height:98%; 
+	margin-top:2em;
+	margin-bottom:50px;
+	margin-left:50px;
+	margin-right:50px;
+	padding:1em;
+	background-color:#fefef8;
+	color:#333333;
+/* 
+    opacity: 0.9;
+ */
+}
+
+.links_text {
+	margin-top:1em;
+	width:90%;
+/* 
+	height:90%;
+ */
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fefef8;
+}

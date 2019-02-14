@@ -1,0 +1,36 @@
+/* 
+playpen.css -Tue Feb  6 14:50:05 CST 2018 
+-- working with new html elements.
+*/
+
+/* 
+Going to use this for a canvas.
+ */
+
+/* need this to insure correct color values */
+.unformatted_playpen{
+	background-color:#fefef8;
+/* 
+	background-color:#dddddd;
+ */
+	color:#333333;
+	width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    padding:2em;
+}
+
+
+.framed_canvas {
+    	display: block;
+
+    width: 90%;
+    height: 90%;
+    margin:auto;
+/* 
+    margin-left:1.5em;
+    margin-right:1.5em;
+ */
+ 	background-color:#ffffff;
+    border:1px solid #000000;
+}

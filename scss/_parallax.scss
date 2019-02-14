@@ -1,0 +1,63 @@
+// 
+// _parallax.scss:  Thu Feb 14 11:32:33 CST 2019
+// 
+
+
+.the_text {
+    height: 30%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("/images/_MLS3284.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 { 
+  /* The image used */
+  background-image: url("/images/IMG_1953.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.parallax3 { 
+  /* The image used */
+  background-image: url("/images/alpaca2.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}

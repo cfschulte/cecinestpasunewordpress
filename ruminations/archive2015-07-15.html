@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="UW,cancer,research,oncology,Wisconsin,Medical School" >  
+  <title>Lockdown 2015</title>
+    <script type="text/javascript" src="/cecinestpasunewordpress/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/cecinestpasunewordpress/js/cecinestpasunewordpress.js"></script>
+
+   <link rel="Stylesheet" type="text/css" href="/cecinestpasunewordpress/css/cecinestpasunewordpress.css" />
+
+
+  </head>
+  <body>
+
+  <div class="main_text">
+  <a href="/links.html">Useful links</a>&nbsp;&nbsp;&nbsp;<a href="/cecinestpasunewordpress/">home</a><br>
+    <div class="unformatted">
+  <h1>Lockdown 2015</h1>
+  <a href="https://www.cio.wisc.edu/events/lockdown-2015/">https://www.cio.wisc.edu/events/lockdown-2015/</a>
+  
+  <h3>Introduction</h3>
+  <p>It is 8:15 in room 1335. The Chief Information Security Officer, Bob Turner, for the UW is talking. Then Bruce Mass, UW-Madison CIO.</p>
+  
+  <p>Note: live tweets at #Lockdown2015. The presentations are at <a href="https://www.cio.wisc.edu/events/lockdown-2015/presentations/">https://www.cio.wisc.edu/events/lockdown-2015/presentations/</a>.</p>
+  
+  <p>A lot of things can't be shared. That's the law. That's creepy. Talking about Penn State and their hacks - one of the issues was that there was inconsistent patching of security holes.</p>
+  
+  <h3>Contemporay Automatic Program Analysis</h3>
+  
+  <p>Julian Cohen (HockeyInJune@gmail.com @HockeyInJune) is the speaker. He does Product Security at Flatiron Healthcare.</p>
+  
+  <p>Manual Auditing and Automatic Testing.</p>
+  
+  <p>Metacharacter Injection Vulnerabilities: whatch out for allowing '&lt;', etc. That allows for '&lt;script&gt;something&lt;/script&gt;</p>
+  
+  <p>githubgrep.py<br></p>
+  
+  <p>Type Confusion Vulnerabilities:<br>union {<br>int number;<br>char *buffer;<br>} u;</p>
+  
+  <p>u.number = recv();<br>strncpy(u.bufer, input, sizeof(u.buffer));</p>
+  
+  <p>Look for all the times where the developer used a bad union by just using grep.</p>
+  
+  <p>The compiler, gcc, will tell you about a lot of vulnerabilities: <em>gcc -Wconversion</em>.</p>
+  
+  <p>RATS: Rough Auditing Tool for Security.</p>
+  
+  <p>Valgrind memcheck: uses dynamic binary instrumentation to detect memory errors.</p>
+  
+  <p>quicksec (275 lines in python): it is similar to RATS, parsing and looking for function calls, but in binaries. It also attempts to determine the vulnerability of its findings.</p>
+  
+  <p>Use-After-Free Vulnerabilities - using a pointer after it has been freed. </p>
+  
+  <p><a href="https://github.com/HockeyInJune/">https://github.com/HockeyInJune/</a></p>
+  
+  <p>LLVM KLEE - an automatic test case generator built on top fo LLVM.</p>
+  
+  
+  <h3>A Scalable, Ensemble Approach for Building and Visualizing Deep Code-Sharing Networks Over Millions of Malicious Binaries</h3>
+	
+	<p>Jashua Saxe - Principal Research Engineeer/associate Research Director, Invincea Labs. Macheine learning etc. </p>
+	
+	<p>String stump?</p>
+	
+	<p>Dynamic Similarity and some software called ssdeep.</p>
+	
+	<p>See <a href="https://beta.cynomix.org/#/">https://beta.cynomix.org/#/</a></p>
+
+	<h3>IT Security Response to a Major Incident: Lessons Learned from the Sandusky Investigation</h3>
+	
+	<p>John Corro - speaker. A tool is <em>Tableau</em></p>
+	
+	<p>Get a Business Continuity Plan for investigations. Get one and test it! What if there is a fire or something.</p>
+	
+	<p>How many pages can be put on a cd ROM? </p>
+	
+	<p>A litigation hold - someone has filed a claim and a lawsuit is imminent and they want the data. When it is time to get rid of data, do it. He gave an example of old tapes in a room. Know encase encryption. </p>
+	
+	<p>John has two phones, one for personal and one for work.</p>
+	
+	
+	<h3>Afternoon</h3>
+	
+	<h3>Finding and Exploiting Access Control Vulnerabilities in Graphical User Interfaces</h3>
+	
+	<p>This one had a pdf to download. I was hoping it would be a little more about web-based things instead of Windows applications.</p>
+	
+	<h3>Secure because Math: Understanding Machine Learning-based Security Products</h3>
+	
+	<p>It seems that Machine Learning is the new hotness in Information Security. A huge number of security startups in their names that claim that their product will defend or detect more effectively than any other product “because math” and how they use “big data and stuff”. Indeed, math is powerful and large-scale machine learning is an important cornerstone of many information systems we use today. However, not all algorithms and techniques are born equal.</p>
+
+	<p>This presentation will describe the different techniques available for data analysis and machine learning for information security, and discuss their strengths and caveats. The Ghost of Marketing Past will also show how similar the unfulfilled promises of deterministic and exploratory analysis were, and how to avoid making the same mistakes again. So, if you need to tell your “3rd generation anomaly detection” and your “hyper-dimensional user behavior analysis” apart, tune in because this is the talk for you!</p>
+	<p>Dorothy E. Denning - professor at the dod analysis at Naval Postgraduate School</p>
+	<p>IDES: Intrusion Detection Expert System.</p>
+	
+	
+	<p>Anomaly Detection: What fits thes mold? Network/Netflow behavior analysis; user ... The Curse of Dimensionality. We need "distances" - Usually Manhattan or Euclidian.</p>
+	
+	<p>Fo high-dimensional data, the distribution of distances between all pairwise points in space becomes concentrated around an average distance (becomes usless)</p>
+	
+	<p>Need to reduce the number of dimensions. </p>
+	
+	<p>Hanlon's Razor (aka Semantic Gap) - Never attribute to malice that which is adequately explained by stupidity. </p>
+	
+	<p>Terry Nelms' Damballa for Network Data Classification.</p>
+	
+	<h3>Hacks and Counter-Hacks: How the Bad Guys Think about Your Code and Some Defensive Techniques, Barton Miller and Elisa Heymann</h3>
+	
+	<p>Owning (pwning?) the bits. </p>
+	
+	<p>Exploit through the eyes of an attacker.  Fuzz testing</p>
+	
+	<p>Taint analysis: execute program in</p>
+	
+	<p>4 Jun 1996: an unchecked 64 bit floating point number assigned to a 16 bit integer.  Ariane 5 mission 501</p>
+	
+	<p>cross-site scripting.</p>
+	</div>
+  </div>
+</body>
+</html>

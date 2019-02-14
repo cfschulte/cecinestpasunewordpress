@@ -1,0 +1,28 @@
+/*
+    Wed Dec  6 15:21:57 CST 2017  -- updating my personal page
+*/
+
+
+@font-face {
+	font-family: "Mistral";
+	src: url("/cecinestpasunewordpress/font_ttf/Mistral.ttf") format('truetype');
+}
+
+h1 {
+    font-family: Mistral;
+    font-size:400%;
+}    
+
+
+.latest_ruminant{
+    width:90%;
+}
+.other_content {
+    width:48%;
+    display: inline-block;
+/* 
+    background-color: #AAAAAA;
+ */
+}
+
+

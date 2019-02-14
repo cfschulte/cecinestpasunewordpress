@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="Thoughts" >  
+  <title>Lab Database Design</title>
+    <script type="text/javascript" src="/cecinestpasunewordpress/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/cecinestpasunewordpress/js/utility.js"></script>
+
+   <link rel="Stylesheet" type="text/css" href="/cecinestpasunewordpress/css/cecinestpasunewordpress.css" />
+
+
+  </head>
+  <body>
+
+  <div class="main_text">
+  <a href="/links.html">Useful links</a>&nbsp;&nbsp;&nbsp;<a href="/cecinestpasunewordpress/">home</a><br>
+  <div class="unformatted">
+  <h3>Lab Database Design</h3>
+  
+  <p>So... I need to redo the rapraeger lab database - built in mysql. Whatever I wound up doing, Deanna wanted something more. It needs to have automatic save and the ability to undo. It needs to keep vendors organized and matched with the products that need to be purchased. It needs to match chemicals with an MSDS pdf. It needs to keep track of purchases. </p>
+  
+  <p>In short, it needs to be flexible enough to handle whatever updates the user wants. It needs to be simple enough to be able to make these changes quickly.</p>
+  
+  <p>I made what I thought was a pretty good version but now I need to rececinestpasunewordpress it. Let's think about the design. The acronyms to choose from include mvc (model view controller), mvvm (model view viewModel), mvp (model view presener), and oop(object oriented programming). I tend to work more in oop but there doesn't seem to be any real distinction. Maybe I should say that the boundaries are pretty grey.</p>
+  
+  <p>I have a database object. It encapsulates the connection and interaction with the mysql database. Then I have several base classes for things like generic tables and forms. These all create and destroy instances of the database. And they all tend to be overridden by the actual views for each database table or row editor. They also tend to interact with javascript elements, which call other (controller?) php-ajax elements. Are these the models? Would that make the javascript the controller? One starts to think it's all bullshit.</p>
+  
+  <p>I remember the arguments I used to have with Bill Erich. He said something to the effect that you could do all of this by simply organizing what goes into which include file...</p>
+  
+  <p>I just looked a couple of things up about programming style. I can't find any real definitive answers. Hmmm, php <a href="http://php.net/manual/en/function.spl-autoload-register.php">spl-autoload-register</a> might be the ticket.</p>
+  
+  <p>Well, no. I don't think that will do what I want. For now, I will do what has been working for humonc_students: require_once "../include_paths.php";</p>
+  
+  <p>This is how I'll start. I want to call this a Lab Information Management System (LIMS) but it isn't really one of those. I guess It is a Lab Inventory Control application. I will open a few of the bits and pieces of the things </p>
+  
+  </div>
+      <br><br>
+     <h3><a href="/cecinestpasunewordpress/ruminations/">Archives</a></h3>
+  </div>
+</body>
+</html> 
