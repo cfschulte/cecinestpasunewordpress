@@ -100,7 +100,7 @@ a:visited{
 
 /* Slide 2 */
 #slide-1 .bcg {background-image:url('/images/DSC_0108.jpg')}
-#slide-1 .hsContent {
+#slide-1 .hsContent { 
     margin-left: -450px;
     top: auto;
 }
