@@ -18,16 +18,18 @@
 </HEAD>
 <body>
 
+<!-- 
   <div class="main_text">
+ -->
   <a href="/write/links.html">Useful links</a>&nbsp;&nbsp;&nbsp;<a href="/write/">home</a><br>
 <!-- 
         <div class="unformatted_playpen">
  -->
         <h3>A little parallax</h3>
+            
+            <div class="parallax"></div>
 
-<!-- 
             <div class="the_text">
- -->
             <p>When we were in Quito, we went to the house of a friend of my wife, Natalie's, mother and aunt. She was basically a German and her husband was a fascinating man who had worked for the UN and did engineering things all over the world. I wish I had jotted down more notes from our conversation. They lived in Cumbaya and had an amazing yard with citrus trees, avocados and all sorts of things.</p>
 
             <p>Cumbaya itself is a pretty interesting place. It is a suburb of Quito and is probably as far from there as Waunakee is from Madison. But it's 800 meters lower in altitude. That is why things can grow there that won't grow in Quito itself. Hence the amazing garden.</p>
