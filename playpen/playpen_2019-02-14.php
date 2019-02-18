@@ -21,18 +21,16 @@
 <!-- 
   <div class="main_text">
  -->
-  <a href="/write/links.html">Useful links</a>&nbsp;&nbsp;&nbsp;<a href="/write/">home</a><br>
-<!-- 
+ <a href="/cecinestpasunewordpress/">home</a><br>
         <div class="unformatted_playpen">
- -->
-        <h3>A little parallax</h3>
+        <h3>Ecuador</h3>
             
             <div class="parallax"></div>
 
             <div class="the_text">
             <p>When we were in Quito, we went to the house of a friend of my wife, Natalie's, mother and aunt. She was basically a German and her husband was a fascinating man who had worked for the UN and did engineering things all over the world. I wish I had jotted down more notes from our conversation. They lived in Cumbaya and had an amazing yard with citrus trees, avocados and all sorts of things.</p>
 
-            <p>Cumbaya itself is a pretty interesting place. It is a suburb of Quito and is probably as far from there as Waunakee is from Madison. But it's 800 meters lower in altitude. That is why things can grow there that won't grow in Quito itself. Hence the amazing garden.</p>
+            <p>Cumbaya is a suburb of Quito and is probably as far from there as Waunakee is from Madison. But it's 800 meters lower in altitude. That is why things can grow there that won't grow in Quito itself. Hence the amazing garden.</p>
 
             <p>In this amazing garden were amazing birds, including this humming bird. Ecuador is an amazing place overall for wildlife. It is a combination of tropical and alpine. The Matterhorn, one of the highest mountain peaks in the alps, is 4,478 meters. The tallest mountain in downtown Quito is the Rucu Pichincha at 4,698. The tallest mountain in Ecuador is the Chimborazo at 6,263m</p> 
 
@@ -47,13 +45,11 @@
             </div>
 
             <div class="parallax3"></div>
-<!-- 
-        </div>
-        </div>
-      <br><br>
-     <h3><a href="/write/playpen/">Archives</a></h3>
- -->
 
+            <div class="the_text">
+            <p>Then there was this guy. He was at <a href="https://www.facebook.com/haciendaalegria/?__tn__=%2Cd%2CP-R&amp;eid=ARCYxJqMo8CC-stPKObz1StAGI2IcZh95BlO0TsuDsX8lQ1dFelmi0yqLzhMB2dhZ533-vVWeJFr9p1r">Hacienda La Alegria</a>. We spent an afternoon horseback riding through the farmlands outside of Quito. </p>
+            </div>
+</div>
 
 </body>
 </html>

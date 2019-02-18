@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 $(document).ready(function(){
 //    console.log("here i am");
-    $(".latest_ruminant").load("./rumination.html .unformatted");
+    $(".latest_ruminant").load("./playpen.php .unformatted_playpen");
  
 // if this thing doesn't work, just put in an image
 //     $(".other_content").load("./playpen.php .unformatted_playpen");
@@ -43,10 +43,10 @@ $(document).ready(function(){
 
 
 // Init Skrollr
-var s = skrollr.init({
-    forceHeight: false
-});
-
+// var s = skrollr.init({
+//     forceHeight: false
+// });
+// 
  
 // Refresh Skrollr after resizing our sections
-s.refresh($('.homeSlide'));
+// s.refresh($('.homeSlide'));
