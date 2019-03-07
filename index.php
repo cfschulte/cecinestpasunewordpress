@@ -12,7 +12,7 @@
 <title>Ceci n'est pas une wordpress</title>
 <link rel="stylesheet" href="css/style.css">
 
-    <script type="text/javascript" src="/jquery/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/jquery/jquery.js"></script>
     <script type="text/javascript" src="/cecinestpasunewordpress/js/write.js"></script>
 
 </HEAD>
