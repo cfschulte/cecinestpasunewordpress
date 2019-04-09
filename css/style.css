@@ -102,6 +102,7 @@ h1 {
   background-image: url("/images/_MLS3284.jpg");
   /* Full height */
   height: 100%;
+  width: 60%;
   margin: auto;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -115,6 +116,7 @@ h1 {
   background-image: url("/images/IMG_1953.jpg");
   /* Full height */
   height: 100%;
+  width: 60%;
   margin: auto;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -128,6 +130,7 @@ h1 {
   background-image: url("/images/alpaca2.jpg");
   /* Full height */
   height: 100%;
+  width: 60%;
   margin: auto;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
